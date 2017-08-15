@@ -1,0 +1,41 @@
+{
+  "name": "email-to-phone",
+  "version": "1.0.0",
+  "description": "Lookup the carrier and sms / mms gateway email addresses for a given company name or comment",
+  "main": "carriers",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jefftham/email-to-phone.git"
+  },
+  "keywords": [
+    "sms",
+    "mms",
+    "text",
+    "gateway",
+    "email",
+    "reverse",
+    "lookup",
+    "carrier",
+    "cell",
+    "tel",
+    "phone",
+    "call",
+    "email to phone",
+    "email to cell",
+    "email to sms",
+    "email to mms",
+    "carrier email suffix"
+  ],
+  "author": "Jeff Tham<Jeff.Tham@live.com>",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/jefftham/email-to-phone/issues"
+  },
+  "homepage": "https://github.com/jefftham/email-to-phone#readme",
+  "dependencies": {
+    "fuse.js": "3.0.5"
+  }
+}
