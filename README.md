@@ -64,8 +64,8 @@ lookups.mms(carrierString[, phone]);          // phone@gateway
 ```
 
 ```javascript
-lookups.mms('AT&T Mobility');                            // "mms.att.net"
-lookups.mms('Sprint', '+15550002222');                // "5550002222@pm.sprint.com"
+lookups.mms('AT&T Mobility');                     // "mms.att.net"
+lookups.mms('Sprint', '+15550002222');            // "5550002222@pm.sprint.com"
 lookups.mms_sms('tmobile', '+15550002222');       // "5550002222@tmomail.net"
 ```
 
