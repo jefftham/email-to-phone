@@ -50,7 +50,7 @@ lookups.sms(carrierString[, phone]);          // phone@gateway
 ```javascript
 lookups.sms('Cellco DBA Verizon Wireless');   // "vtext.com"
 lookups.sms('T-Mobile', '+15550002222');      // "5550002222@tmomail.net"
-lookups.sms_mms('att', '+15550002222');           // "5550002222@txt.att.net"
+lookups.sms_mms('att', '+15550002222');       // "5550002222@txt.att.net"
 ```
 
 ### mms
@@ -72,15 +72,13 @@ lookups.mms_sms('tmobile', '+15550002222');       // "5550002222@tmomail.net"
 ### carrier
 
 Accepts an sms or mms gateway domain or email address, or a carrier string
-and returns the simple carrier string or `null`
+and returns the an array of results that
 
 ```javascript
 lookups.carrier(smsMmsOrCarrierString);       // programmer-friendly carrier name
 ```
 
 ```javascript
-lookups.sms('AT&T Mobility');                 // "att"
-lookups.sms('messaging.sprintpcs.com');       // "sprint"
 lookups.carrier('5550002222@vzwpix.com');     // an array of object included "verizon", "page plus"
 ```
 
