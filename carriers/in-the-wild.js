@@ -5,11 +5,6 @@
 // ALPHABETIC ORDER
 // When editing this file, please maintain alphabetic order
 
-// WIRELESS vs LANDLINE
-// Note that most of the time there are two separate companies
-// for cell and landline coverage. The cell companies are usually
-// postfixed with Wireless, Mobile, Mobility, PCS, or Cellular
-
 // edit on 08/15/2017
 
 // EXAMPLE
@@ -29,7 +24,7 @@ module.exports = [{
 }, {
   "name": "alltel",
   "carrier": "Alltel Wireless",
-  "sms": "sms.alltelwireless.com",
+  "sms": "message.alltel.com",
   "mms": "mms.alltelwireless.com"
 }, {
   "name": 'att',
@@ -47,7 +42,7 @@ module.exports = [{
 }, {
   "name": "boost",
   "carrier": "Boost Mobile",
-  "sms": "sms.myboostmobile.com",
+  "sms": "myboostmobile.com",
   "mms": "myboostmobile.com"
 }, {
   "name": "cinglular",
@@ -60,9 +55,8 @@ module.exports = [{
   "sms": "sms.cleartalk.us"
 }, {
   "name": "cricket",
-  "carrier": "Cricket",
-  "sms": "sms.mycricket.com",
-  "mms": "mms.mycricket.com"
+  "carrier": "Cricket Wireless",
+  "mms": "mms.cricketwireless.net"
 }, {
   "name": "cspire",
   "carrier": "C Spire Wireless",
@@ -85,6 +79,10 @@ module.exports = [{
   "name": "projectfi",
   "carrier": "Google Project Fi",
   "sms": "msg.fi.google.com"
+}, {
+  "name": "republic",
+  "carrier": "Republic Wireless",
+  "sms": "text.republicwireless.com"
 }, {
   "name": "sprint",
   "carrier": "Sprint",
