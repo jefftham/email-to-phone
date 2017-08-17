@@ -26,9 +26,9 @@ console.log(email);
 ```javascript
 let lookups = require('email-to-phone');
 
-let obj = lookups.lookup('veriSon wireless'); // fuzzy lookup
+let obj = lookups.lookup('veriSon wireless');        // fuzzy lookup
 
-let email = lookups.mms_sms(obj.name, 5550002222); // prefer MMS but SMS is ok
+let email = lookups.mms_sms(obj.name, 5550002222);   // prefer MMS but SMS is ok
 
 console.log(email);
 // 5550002222@vzwpix.com
