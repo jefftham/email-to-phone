@@ -15,14 +15,23 @@ npm install email-to-phone --save
 ```
 
 ```javascript
-'use strict';
-
 let lookups = require('email-to-phone');
 
 let email = lookups.sms('verizon', 5550002222);
 
 console.log(email);
 // 5550002222@vtext.com
+```
+
+```javascript
+let lookups = require('email-to-phone');
+
+let obj = lookups.lookup('veriSon wireless'); // fuzzy lookup
+
+let email = lookups.mms_sms(obj.name, 5550002222); // prefer MMS but SMS is ok
+
+console.log(email);
+// 5550002222@vzwpix.com
 ```
 
 API
@@ -122,8 +131,19 @@ lookups.list();
   'cricket',
   'cspire',
   'metropcs',
-  ...]
-
+  'nextel',
+  'pageplus',
+  'projectfi',
+  'republic',
+  'sprint',
+  'straighttalk',
+  'ting',
+  'tmobile',
+  'tracfone',
+  'uscellular',
+  'verizon',
+  'viaero',
+  'virgin' ]
 ```
 
 ### companyList
@@ -140,6 +160,17 @@ lookups.companyList();
   'Cricket',
   'C Spire Wireless',
   'T-Mobile_MetroPCS',
-  ...]
-
+   'Sprint Nextel',
+  'Page Plus',
+  'Google Project Fi',
+  'Republic Wireless',
+  'Sprint',
+  'Straight Talk',
+  'Ting',
+  'T-Mobile',
+  'Tracfone',
+  'US Cellular',
+  'Verizon Wireless',
+  'Viaero Wireless',
+  'Virgin Mobile']
 ```
