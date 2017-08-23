@@ -57,7 +57,7 @@ lookups.sms(carrierString[, phone]);          // phone@gateway
 ```
 
 ```javascript
-lookups.sms('verizon');   // "vtext.com"
+lookups.sms('verizon');                       // "vtext.com"
 lookups.sms('tmobilee', '+15550002222');      // "5550002222@tmomail.net"
 lookups.sms_mms('att', '+15550002222');       // "5550002222@txt.att.net"
 ```
@@ -98,7 +98,7 @@ lookups.lookup(carrierStr[, phone, object]);
 ```
 
 ```javascript
-lookups.lookup("Verizon");
+lookups.lookup("Verizon");                   // fuzzy lookup
 
 { name: 'verizon',
   carrier: 'Verizon Wireless',
