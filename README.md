@@ -73,7 +73,7 @@ lookups.mms(carrierString[, phone]);          // phone@gateway
 ```
 
 ```javascript
-lookups.mms('att');                     // "mms.att.net"
+lookups.mms('att');                               // "mms.att.net"
 lookups.mms('sprint', '+15550002222');            // "5550002222@pm.sprint.com"
 lookups.mms_sms('tmobile', '+15550002222');       // "5550002222@tmomail.net"
 ```
