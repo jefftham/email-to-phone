@@ -1,6 +1,6 @@
 {
   "name": "email-to-phone",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lookup the carrier and sms / mms gateway email addresses for a given company name or comment",
   "main": "carriers",
   "scripts": {

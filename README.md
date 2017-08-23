@@ -57,8 +57,8 @@ lookups.sms(carrierString[, phone]);          // phone@gateway
 ```
 
 ```javascript
-lookups.sms('Cellco DBA Verizon Wireless');   // "vtext.com"
-lookups.sms('T-Mobile', '+15550002222');      // "5550002222@tmomail.net"
+lookups.sms('verizon');   // "vtext.com"
+lookups.sms('tmobilee', '+15550002222');      // "5550002222@tmomail.net"
 lookups.sms_mms('att', '+15550002222');       // "5550002222@txt.att.net"
 ```
 
@@ -73,8 +73,8 @@ lookups.mms(carrierString[, phone]);          // phone@gateway
 ```
 
 ```javascript
-lookups.mms('AT&T Mobility');                     // "mms.att.net"
-lookups.mms('Sprint', '+15550002222');            // "5550002222@pm.sprint.com"
+lookups.mms('att');                     // "mms.att.net"
+lookups.mms('sprint', '+15550002222');            // "5550002222@pm.sprint.com"
 lookups.mms_sms('tmobile', '+15550002222');       // "5550002222@tmomail.net"
 ```
 
